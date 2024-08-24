@@ -1,6 +1,7 @@
 * { margin: 0;
      padding: 0; 
     box-sizing: border-box; }
+
  body { background-color: #2b88f0;
     
     font-family: sans-serif; 
@@ -10,18 +11,25 @@
       justify-content: center;
        overflow: hidden;
         height: 100vh; } 
+
         .main-container { width: 500px; }
+
          h4 { color: #fff; 
             margin: 10px 0 20px; 
             text-align: center; } 
+
             textarea { font-size: 15px; 
                 border: none;
                  width: 100%;
                  height: 100px; 
-                padding: 10px; margin-bottom: 20px;
+                padding: 10px;
+                 margin-bottom: 20px;
                  font-family: inherit; }
+
              textarea:focus { outline: none; } 
-             .option-tag { background-color: #f0932b; color: #fff; 
+
+             .option-tag { background-color: #f0932b; 
+               color: #fff; 
                 border-radius: 50px; 
                 padding: 10px 20px; 
                 margin-right: 5px; 
