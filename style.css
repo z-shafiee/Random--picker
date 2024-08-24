@@ -36,4 +36,5 @@
                 margin-bottom: 10px;
                  font-size: 14px; 
                  display: inline-block; } 
-             .option-tag.active { background-color: #273c75; }
+
+             .option-tag.active{ background-color: #1a2e64;}

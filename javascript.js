@@ -56,8 +56,8 @@ inputField.addEventListener('keyup', (event) => {
                               return elements.length > 0 ? elements[Math.floor(Math.random() * elements.length)] : null;
                              } 
                              function activateTag(tag) { 
-                                tag.classList.add('active');
+                                tag.classList.add("active");
                              }
                               function deactivateTag(tag) { 
-                                tag.classList.remove('active'); 
+                                tag.classList.remove("active"); 
                             }
